@@ -2,31 +2,255 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 40%
+    right: 50%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
     right: 30%
 
+
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  // propios
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.banner-principal
+    border-radius: 20px !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.cajon.color-primario
+  background-color: #D1BCFF
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.borde-redondo
+  border-radius: 20px !important
 
-figcaption
-  font-weight: normal
+.borde-redondo-tmorada
+  border-radius: 20px !important
+  background-color: #F8F5FF !important
+
+.titulo-segundo.color-primario:after
+  border-left-color: #D1BCFF !important
+
+.linea-tiempo-c__header__btn--left 
+  background-color: #FFD54F !important
+
+.linea-tiempo-c__header__btn--right
+  background-color: #FFD54F !important
+
+.lista-ul--color.color-primario li > i:first-of-type 
+  color: #895cd8 !important
+  
+  ///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #8C5BE1 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF  
+
+
+/// slyder F boton
+
+.slyder-f 
+    display: flex
+    align-items: center !important
+
+.slyder-f__btn
+    width: 50px;
+    height: 50px;
+    background-color: $color-acento-botones;
+    border-radius: 50%;
+
+.slyder-f__btn i 
+    font-size: 2rem !important
+
+.slyder-f__btn.pe-3
+  margin-right: 1rem;
+  padding-right: 0 !important;
+
+.slyder-f__btn.ps-3
+  margin-left: 1rem;
+  padding-left: 0 !important;
+
+
+
+/// -- Tabs -----
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+    background-color: #D1BCFF !important
+    color: #12263F
+
+.tabs-a__tab 
+    background-color: #FFD54F !important
+
+.tarjeta.color-acento-botones--borde 
+    background-color: #E8E1F4
+    border: none
+    border-radius: 20px !important
+
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+    background-color: #D1BCFF
+
+///-- tarjetas
+
+.tarjeta--boton
+    background-color: #FFF5D3
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #D1BCFF !important
+
+.linea-tiempo-d__item__dots:after
+  border-left: 5px dotted  #673AB7;
+
+.tarjeta-avatar 
+    height: 100%
+    position: relative
+    padding-top: 75px
+
+///-- cajon
+
+.cajonmorado 
+    background-color: #673AB7 !important
+
+// Banner interno - subtitulo
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+
+.subt
+  img
+    width: 23px
+  h3
+    color: #673AB7
+  &::after   
+    content: ""
+    display: block
+    height: 3px
+    width: 110px
+    background-color: #673AB7
+
+// viñeta
+
+.lista-ol--cuadro__vineta
+  color: black
+
+//acordeon
+
+.tarjeta--grisos 
+  background-color: #DADDDF !important
+
+.tarjeta--grisos.acordion__activo
+  background-color: #E8E4FF !important
+
+.tarjeta--purple
+  border-bottom: 1px solid  #F8F5FF !important
+  border-radius: 0 !important
+
+.tarjeta--purple.acordion_activo
+  background-color: #F8F5FF !important
+  border-radius: 25px !important
+
+.acordion__activo .acordion__accion__btn--b
+  background-color: #F8F5FF
+  border: 1px solid #12263F
+  i
+    color: black
+
+.fondoespecial
+  background-image: url("../assets/curso/temas/tema2/fondo1.svg") !important
+
+.fondoespecial2
+  background-image: url("../assets/curso/temas/tema2/fondo2.png") !important
+
+.fondoespecial3
+  background-image: url("../assets/curso/temas/tema2/fondo3.png") !important
+
+.fondoespecial4
+  background-image: url("../assets/curso/temas/tema2/fondo4.png") !important
+
+.bgamarillo
+  background-color: #FFD54F !important
+
+.bgamarilloclaro
+  background-color: #FFF5D3 !important
+
+.bgamarilloclaro2
+  background-color: #F4EDD4 !important
+
+.bgmoradoclaro
+  background-color: #F3EEFF !important
+
+.texto1
+  font-size: xx-small !important
+
+.texto2
+  font-size: 12
+
+// Acordion A
+
+.tarjeta.acordeonA
+  background-color: #DADDDF !important
+  border-radius: 25px !important
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #F8F5FF !important
+  border-radius: 25px !important
+
+.acordion__accion__btn--b
+  border: 1px solid #12263F
+  
+// slyder cuadrado
+
+.slyder__btn 
+    background-color: #FFD54F
+
+.estilo1
+  border: 1px solid #673AB7
+  border-radius: 25px
+
+.estilo2
+  border: 20px solid #673AB7 
+
+//viñetas
+
+// sangría viñeta
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.texto-negro
+  font-color: black !important
+

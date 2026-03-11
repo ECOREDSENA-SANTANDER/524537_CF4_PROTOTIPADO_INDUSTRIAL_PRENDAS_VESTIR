@@ -2,15 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p.mb-5 Se expone en un diagrama los principales temas que se abordan en el componente de trazado de patrones en la confección: el uso de #[em software] de patronaje, específicamente Optitex, y el método manual de trazo y corte. Encontrará dentro del componente los pasos clave involucrados en cada enfoque, destacando las etapas principales del proceso de diseño y producción de prendas.
+
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/temas/sintesis.png", alt="La imagen describe un diagrama comparativo que presenta dos enfoques para el trazado de patrones: uno mediante el uso de <i>software</i> de patronaje, como Optitex, y otro mediante el trazo y corte manual. En el lado izquierdo, se detallan las etapas del proceso con el software, desde la personalización del área de trabajo hasta la creación de diferentes modelos de prendas. En el lado derecho, se describen los pasos del proceso manual, desde el reconocimiento de las prendas hasta la terminología industrial relacionada con el trazo y corte.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
 
