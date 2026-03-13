@@ -13,8 +13,9 @@
         .cajon.color-primario 
           p.p-5 #[b  Para abordar este tema, y de acuerdo con la necesidad de la industria textil frente al perfil de un patronista, se brindarán los conocimientos y se entregarán las herramientas técnicas requeridas en el área de prototipado o muestreo de producto.  ]
       .col-7.col-md-4.col-lg-3.p-3
-        img(src="@/assets/curso/temas/tema2/imagen1.svg", alt="Imagen recortando molde")
+        img(src="@/assets/curso/temas/tema2/imagen1.png", alt="")
     
+
     Separador 
     .row.mb-4
       #t_2_1.titulo-segundo.color-primario
@@ -215,28 +216,28 @@
             p.mb-4 Procedimiento que se realiza sobre el material textil con jaboncillo o tiza, teniendo en cuenta las características dimensionales del tejido a cortar.
             .row.justify-content-center.p-4
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono1.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono1.svg", alt='')
                 p.text-center Patrones
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono2.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono2.svg", alt='')
                 p.mb-0.text-center Escuadras o reglas
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono3.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono3.svg", alt='')
                 p.mb-0.text-center Papel de trazo
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono4.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono4.svg", alt='')
                 p.text-center Lápices
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono5.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono5.svg", alt='')
                 p.text-center Metro
               .col-5.col-md.col-md
-                img(src="@/assets/curso/temas/tema2/iconosv/icono6.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono6.svg", alt='')
                 p.mb-0.text-center Jaboncillo de tiza
               .col-5.col-md.col-lg
-                img(src="@/assets/curso/temas/tema2/iconosv/icono7.svg", alt='Diseñadora')
+                img(src="@/assets/curso/temas/tema2/iconosv/icono7.svg", alt='')
                 p.text-center Mesa
           .col-7.col-md-5.col-lg-3
-            img(src="@/assets/curso/temas/tema2/imagen10.svg", alt='Diseñadora')
+            img(src="@/assets/curso/temas/tema2/imagen10.png", alt='')
 
   
     .row.mt-4.mb-4
@@ -249,19 +250,19 @@
             .tarjeta.bgamarilloclaro.p-4.borde-redondo
               .row.justify-content-center.mb-3
                 .col-sm-4.col-md-10.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/tar14/t1.svg", alt='Diseñadora')
+                  img(src="@/assets/curso/temas/tema2/tar14/t1.svg", alt='')
                 h3.text-center.mb-3 Trazos en tela
           .col-sm-12.col-md-3.col-lg-3
             .tarjeta.bgamarilloclaro.p-4.borde-redondo
               .row.justify-content-center.mb-3
                 .col-sm-4.col-md-10.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/tar14/t2.svg", alt='Diseñadora')
+                  img(src="@/assets/curso/temas/tema2/tar14/t2.svg", alt='')
                 h3.text-center.mb-3 Forro
           .col-sm-12.col-md-3.col-lg-3
             .tarjeta.bgamarilloclaro.p-4.borde-redondo
               .row.justify-content-center.mb-3
                 .col-sm-4.col-md-10.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/tar14/t3.svg", alt='Diseñadora')
+                  img(src="@/assets/curso/temas/tema2/tar14/t3.svg", alt='')
                 h3.text-center.mb-3 Entretelas
 
     .row.justify-content-center.mt-4.mb-4(data-aos="zoom-in-left")
@@ -287,7 +288,7 @@
             i.fas.fa-plus
             | Otras herramientas.
       .col-8.col-md-5.col-lg-4
-        img(src="@/assets/curso/temas/tema2/imagen13.svg", alt='Diseño')
+        img(src="@/assets/curso/temas/tema2/imagen13.svg", alt='')
 
     .subt(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -307,7 +308,7 @@
             .col-md-12.mb-4.mb-md-0
               p Comprende mesa, unidad de control conformado por el ordenador con  #[em software ] especializado, cabezal de corte y carro extendedor automático, permitiendo optimizar el espacio y tiempos de corte. 
       .col-8.col-md-4.col-lg-4
-        img.p-2(src="@/assets/curso/temas/tema2/imagen14.svg", alt='Modista cortando')
+        img.p-2(src="@/assets/curso/temas/tema2/imagen14.png", alt='')
 
     Separador 
     .subt.mb-5(data-aos="fade-right")
@@ -354,7 +355,7 @@
         img(src='@/assets/curso/temas/subt.svg', alt='')
         h3.mb-0.ms-2 Máquinas de corte industrial
 
-    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-10.col-lg-10
         .row.p-2
           .col-sm-12.col-md-6.col-lg-4
@@ -382,8 +383,7 @@
             .tajeta.bgamarilloclaro.borde-redondo.p-2
               img.mb-0(src='@/assets/curso/temas/tema2/tar15/imagen6.png', alt='La imagen presenta varias cortadoras utilizadas en la confección textil, incluyendo una cortadora automática, una cortadora sin fin, una cortadora vertical, una cortadora circular y una cortadora de mano. Además, muestra un guante de malla que se utiliza como equipo de seguridad al manejar estas herramientas de corte.')
               p.text-center #[b  Guante malla  ]
-
-    Separador 
+ 
 
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -518,7 +518,7 @@
             .col-md-12.mb-4.mb-md-0
               p Este tipo de orillo es utilizado por los fabricantes de textiles clásicos como paños, también tejen sus nombres en el orillo para que sean identificados fácilmente en las sastrerías a medida. 
       .col-8.col-md-4.col-lg-4
-        img.p-3.mt-4(src="@/assets/curso/temas/tema2/imagen22.png", alt='telas')
+        img.p-3.mt-4(src="@/assets/curso/temas/tema2/imagen22.png", alt='')
 
     Separador    
     .row.mb-4
@@ -566,7 +566,7 @@
 
     .row.justify-content-center.align-items-center.mt-5.mb-5.fondoespecial2(data-aos="zoom-in-left")
       .col-6.col-md-5.col-lg-3
-        img.p-4(src="@/assets/curso/temas/tema2/imagen24.svg") 
+        img.p-4(src="@/assets/curso/temas/tema2/imagen24.png") 
       .col-sm-12.col-md-7.col-lg-7
         h3.ps-5.mb-5 Extendido manual
         p.ps-5.mb-0 En el extendido manual se sitúa la pieza de textil en un extremo de la mesa, mientras dos operarios efectúan el estirado de la tela (pueden también utilizar un carro de extendido) hasta el largo previamente establecido.
@@ -719,7 +719,7 @@
                 i.fas.fa-plus
                 span.mb-0 Plantilla.
       .col-8.col-md-5.col-lg-3
-        img.p-3(src="@/assets/curso/temas/tema2/imagen27.svg")
+        img.p-3(src="@/assets/curso/temas/tema2/imagen27.png")
 
     br
     .row.mb-4.mt-4
@@ -945,7 +945,7 @@
         .cajon.color-primario 
           p.p-5 #[b  Inserte los alfileres cada 3 cm al rededor del patrón y en puntos claves, evite coger mucha cantidad del textil para evitar los bucles y malformaciones a la hora de pinar, es recomendable ubicar los alfileres de forma diagonal. ]
       .col-6.col-md-3.col-lg-3
-        img.p-3(src="@/assets/curso/temas/tema2/imagen41.svg")
+        img.p-3(src="@/assets/curso/temas/tema2/imagen41.png")
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-5.col-lg-3
@@ -1083,7 +1083,7 @@
         .tarjeta.color-acento-botones.borde-redondo.mt-4
           .row.justify-content-around.align-items-center
             .col-6.col-md-4.col-lg-2
-              img.mt-4.mb-4.ps-5(src="@/assets/curso/temas/tema2/admiracion.png")
+              img.mt-4.mb-4.ps-5(src="@/assets/curso/temas/tema2/admiracion2.png")
             .col-sm-12.col-md-8.col-lg-10
               p.ps-3.mb-0 #[b ¿Por qué es importante el #[em nap]? ]
               p.ps-3.mb-0 El #[em nap] es muy importante para determinar cómo se establece el patrón en el textil, en este caso se trabaja siempre un trazo direccional. Se debe tener en cuenta lo siguiente:
@@ -1094,14 +1094,14 @@
       .col-sm-12.col-md-5.col-lg-5.p-3
         .row.estilo1
           .col-8.col-md-3.col-lg-3
-            img.p-2.mt-3(src='@/assets/curso/temas/tema2/uno.svg' alt='AvatarTop')
+            img.p-2.mt-3(src='@/assets/curso/temas/tema2/uno.svg' alt='')
           .col-sm-12.col-md-9.col-lg-9
             p.p-2.mt-3 #[b Acabados de la prenda ]
             p.ps-2.mb-5 Si no se tiene en cuenta el  #[em nap ] al momento de cortar la prenda, la prenda terminaría con brillos diferentes en cada pieza, necesitan un color y una textura uniforme en toda la pieza.
       .col-sm-12.col-md-5.col-lg-5.p-3
         .row.estilo1
           .col-8.col-md-3.col-lg-3
-            img.p-2.mt-3(src='@/assets/curso/temas/tema2/dos.svg' alt='AvatarTop')
+            img.p-2.mt-3(src='@/assets/curso/temas/tema2/dos.svg' alt='')
           .col-sm-12.col-md-9.col-lg-9
             p.p-2.mt-3 #[b Determinar el consumo del textil ]
             p.ps-2.mb-4 Se debe determinar el consumo de material que requiere la prenda para garantizar que todo el textil sea suficiente para el corte, lo cual es una clara desventaja, ya que se desperdicia mucha tela al seguir un trazo direccional.
@@ -1121,7 +1121,7 @@
             i.fas.fa-plus
             span.mb-0 El brillo de la tela es diferente cuando se ve desde diferentes direcciones.
       .col-10.col-md-7.col-lg-7
-        img(src="@/assets/curso/temas/tema2/imagen48.svg" alt="La imagen detalla la correcta e incorrecta dirección del pelo al cortar piezas de un patrón. La sección superior, marcada como “Correct”, indica que todas las piezas del patrón están alineadas con el pelo en la misma dirección, lo cual es correcto. La sección inferior, marcada como “Incorrect”, expone piezas del patrón con el pelo en diferentes direcciones, lo cual es incorrecto. Esto asegura que la textura y apariencia de la prenda final sean uniformes. ")
+        img(src="@/assets/curso/temas/tema2/imagen48.png" alt="La imagen detalla la correcta e incorrecta dirección del pelo al cortar piezas de un patrón. La sección superior, marcada como “Correct”, indica que todas las piezas del patrón están alineadas con el pelo en la misma dirección, lo cual es correcto. La sección inferior, marcada como “Incorrect”, expone piezas del patrón con el pelo en diferentes direcciones, lo cual es incorrecto. Esto asegura que la textura y apariencia de la prenda final sean uniformes. ")
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-sm-12.col-md-12.col-lg-3
@@ -1146,7 +1146,7 @@
             span.mb-0 Marcación por el revés con tiza.
         p Algunas tienen el vello más largo que otras, por eso es importante realizar un trazo, marcado y corte de forma adecuada.
       .col-7.col-md-5.col-lg-3
-        img.mt-3(src="@/assets/curso/temas/tema2/imagen50.svg")
+        img.mt-3(src="@/assets/curso/temas/tema2/imagen50.png")
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-sm-12.col-md-10.col-lg-10
@@ -1164,7 +1164,7 @@
         p #[b Textiles estampados ]
         p Los textiles estampados también se deben trabajar con un trazo direccional, ya que de esto depende la dirección del estampado que se desee en la prenda terminada. Esto significa que todas las piezas deben cortarse en la misma dirección para que el estampado quede acorde al diseño.
       .col-6.col-md-6.col-lg-6
-        img(src="@/assets/curso/temas/tema2/imagen52.svg" alt="La imagen expone el proceso de colocar patrones sobre la tela para el corte. En la parte superior derecha, se ve una tela extendida con varias piezas del patrón colocadas, alineadas con el hilo y el orillo de la tela. En la parte inferior izquierda, se muestran dos piezas del patrón, con una marcada como “centro frente”, indicando la alineación central en la tela. Estas imágenes enfatizan la importancia de alinear correctamente los patrones con el hilo y el orillo de la tela para garantizar precisión en el corte y la confección de la prenda.")
+        img(src="@/assets/curso/temas/tema2/imagen52.png" alt="La imagen expone el proceso de colocar patrones sobre la tela para el corte. En la parte superior derecha, se ve una tela extendida con varias piezas del patrón colocadas, alineadas con el hilo y el orillo de la tela. En la parte inferior izquierda, se muestran dos piezas del patrón, con una marcada como “centro frente”, indicando la alineación central en la tela. Estas imágenes enfatizan la importancia de alinear correctamente los patrones con el hilo y el orillo de la tela para garantizar precisión en el corte y la confección de la prenda.")
 
     .row.align-items-center.justify-content-center.mt-4
       .col-7.col-md-3.col-lg-3.p-3
@@ -1255,7 +1255,7 @@
         .cajon.color-primario 
           p.p-5 #[b  Se usa tiqueteadora con su papel adhesivo; es importante definir la ubicación en la pieza, se trabaja por el revés de la tela.  ]
       .col-7.col-md-3.col-lg-3.p-3
-        img(src="@/assets/curso/temas/tema2/imagen55.svg")
+        img(src="@/assets/curso/temas/tema2/imagen55.png")
                     
     .row.mb-4.mt-4(data-aos="zoom-in-left")
       h3.mb-4 Operaciones auxiliares de corte

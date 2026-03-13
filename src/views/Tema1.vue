@@ -13,7 +13,7 @@
         .cajon.color-primario 
           p.p-5 #[b  Para el trazo de patrones se referenciará únicamente la línea femenina; sin embargo, cabe resaltar que las herramientas del programa y manejo de interfaz aplican para cualquier línea; tenga en cuenta que el desarrollo del trabajo manual es la base para la apropiación de un proceso digital.]
       .col-7.col-md-5.col-lg-3
-        img(src="@/assets/curso/introduccion/imagen2.svg", alt="Interfaz software")
+        img(src="@/assets/curso/introduccion/imagen2.png", alt="")
 
     Separador
     .row.mb-2
@@ -53,7 +53,7 @@
               span 6
             span Área de #[b trabajo.]
       .col-12.col-md-7.col-lg-7
-        img(src="@/assets/curso/temas/tema1/imagen1.svg", alt="La imagen hace una descripción del paso a paso de la herramienta  para poder hacer los trazos de cada prenda, allí se enumeran las barras y ventanas que se necesitan en cada fase. La imagen expone la interfaz de un programa de diseño de patrones, probablemente para confección. En la parte superior, se encuentra la barra de menú y debajo de ella la barra de herramientas con varios íconos. A la derecha, están los controles de ventana para minimizar, maximizar y cerrar. Debajo de la barra de herramientas, hay una ventana de piezas que expone en miniatura. En el lado izquierdo, se encuentra el panel de propiedades con varias pestañas relacionadas con las herramientas y opciones del diseño. En el centro, está el área de trabajo que detalla una pieza del patrón con diversas líneas y marcas. Las flechas moradas señalan estas secciones específicas de la interfaz.")
+        img(src="@/assets/curso/temas/tema1/imagen1.png", alt="La imagen hace una descripción del paso a paso de la herramienta  para poder hacer los trazos de cada prenda, allí se enumeran las barras y ventanas que se necesitan en cada fase. La imagen expone la interfaz de un programa de diseño de patrones, probablemente para confección. En la parte superior, se encuentra la barra de menú y debajo de ella la barra de herramientas con varios íconos. A la derecha, están los controles de ventana para minimizar, maximizar y cerrar. Debajo de la barra de herramientas, hay una ventana de piezas que expone en miniatura. En el lado izquierdo, se encuentra el panel de propiedades con varias pestañas relacionadas con las herramientas y opciones del diseño. En el centro, está el área de trabajo que detalla una pieza del patrón con diversas líneas y marcas. Las flechas moradas señalan estas secciones específicas de la interfaz.")
 
     .subt.mb-4.mt-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -83,12 +83,12 @@
         h3.mb-0.ms-2 Configurar área de trabajo
 
     .tarjeta.tarjeta--gris.p-4.borde-redondo.mt-5.mb-5(style="background-color: #F8F5FF")(data-aos="zoom-in-left")
-      LineaTiempoC.color-acento-botones(text-small)
+      LineaTiempoC.color-acento-botones
         .row(titulo="1")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 En la barra de menú de herramientas, seleccione la opción #[b preferencias], aparece la siguiente ventana.
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen1.svg", alt='La imagen detalla una captura de pantalla de un programa de diseño de patrones con el menú “Herramientas” desplegado. En el menú, se destacan las opciones “Costura”, “Escalado”, “Aflojar”, “Pliegues”, “Editar Segmento”, “Líneas guías”, “Configuración temas…”, “Personalizar…”, “Resetear layout área trabajo…”, y “Preferencias…”. La opción “Herramientas” y “Preferencias…” están resaltadas con círculos naranjas. A la izquierda, se ve el panel de “Propiedades” con detalles de una pieza, como el nombre, cantidad y código.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen1.png", alt='La imagen detalla una captura de pantalla de un programa de diseño de patrones con el menú “Herramientas” desplegado. En el menú, se destacan las opciones “Costura”, “Escalado”, “Aflojar”, “Pliegues”, “Editar Segmento”, “Líneas guías”, “Configuración temas…”, “Personalizar…”, “Resetear layout área trabajo…”, y “Preferencias…”. La opción “Herramientas” y “Preferencias…” están resaltadas con círculos naranjas. A la izquierda, se ve el panel de “Propiedades” con detalles de una pieza, como el nombre, cantidad y código.')
         .row(titulo="2")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 En esa ventana se puede configurar:
@@ -114,13 +114,13 @@
                   span 5
                 | Atributos de herramientas.
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen2.svg", alt='La imagen expone la ventana de “Preferencias” de un programa de diseño de patrones. A la izquierda, se encuentran varias categorías como “Principal”, “Interno y Texto”, “Piquete”, “Plot y corta”, “Guardar”, “Fuente”, “Colores” y “Configuración”, con subcategorías como “General”, “Pieza”, “Comando”, “Material”, “Puntada” y “Calidad”. En el panel derecho, bajo “Área de trabajo”, se pueden configurar opciones como el fondo, el color de línea guía, la rejilla, las rayas y el color de las reglas. Bajo “Pieza”, se pueden ajustar el color de relleno, el color de la pieza seleccionada, el color para contorno seleccionado, y varios otros colores específicos relacionados con el diseño de las piezas. La sección “Preferencias” está resaltada con un círculo amarillo.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen2.png", alt='La imagen expone la ventana de “Preferencias” de un programa de diseño de patrones. A la izquierda, se encuentran varias categorías como “Principal”, “Interno y Texto”, “Piquete”, “Plot y corta”, “Guardar”, “Fuente”, “Colores” y “Configuración”, con subcategorías como “General”, “Pieza”, “Comando”, “Material”, “Puntada” y “Calidad”. En el panel derecho, bajo “Área de trabajo”, se pueden configurar opciones como el fondo, el color de línea guía, la rejilla, las rayas y el color de las reglas. Bajo “Pieza”, se pueden ajustar el color de relleno, el color de la pieza seleccionada, el color para contorno seleccionado, y varios otros colores específicos relacionados con el diseño de las piezas. La sección “Preferencias” está resaltada con un círculo amarillo.')
         .row(titulo="3")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 Al estar en la opción #[b preferencias], diríjase a la carpeta #[b principal] y seleccione #[b unidad]. 
             p.ps-5.mb-0 Esta ventana permite seleccionar la unidad de medida con la que desea trabajar.
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen3.svg", alt='La imagen describe la ventana de “Preferencias” del programa de diseño de patrones, específicamente en la sección “Principal” bajo “Unidades de trabajo”. A la izquierda, se ven varias categorías de configuración, incluyendo “Pieza”, “Interno y Texto”, “Piquete”, “Plot y corta”, “Guardar”, “Fuente”, “Colores”, “Configurar importación” y “Configurar exportación”. A la derecha, en el panel principal, se puede seleccionar la unidad de medida entre opciones como milímetros, centímetros, metros, pulgadas, pies y yardas. Ambas secciones están resaltadas con óvalos negros.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen3.png", alt='La imagen describe la ventana de “Preferencias” del programa de diseño de patrones, específicamente en la sección “Principal” bajo “Unidades de trabajo”. A la izquierda, se ven varias categorías de configuración, incluyendo “Pieza”, “Interno y Texto”, “Piquete”, “Plot y corta”, “Guardar”, “Fuente”, “Colores”, “Configurar importación” y “Configurar exportación”. A la derecha, en el panel principal, se puede seleccionar la unidad de medida entre opciones como milímetros, centímetros, metros, pulgadas, pies y yardas. Ambas secciones están resaltadas con óvalos negros.')
         .row(titulo="4")
           .col-md-5.mb-4.mb-md-0
             p.ps-5.mb-0 Seleccione la carpeta, #[b colores], opción #[b configuración].
@@ -139,7 +139,7 @@
                   span 3
                 | Solo la pieza seleccionada. También se puede seleccionar el método de relleno, que puede ser: por material, pieza y calidad.
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen4.svg", alt='La imagen expone la configuración de “Rellena pieza” en las “Preferencias” del programa de diseño de patrones. En la sección “Colores”, se puede activar o desactivar el relleno de piezas, aplicándolo a todas las piezas, ninguna, la pieza seleccionada o el set del modelo activo. También se puede elegir el método de relleno por material, pieza o calidad.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen4.png", alt='La imagen expone la configuración de “Rellena pieza” en las “Preferencias” del programa de diseño de patrones. En la sección “Colores”, se puede activar o desactivar el relleno de piezas, aplicándolo a todas las piezas, ninguna, la pieza seleccionada o el set del modelo activo. También se puede elegir el método de relleno por material, pieza o calidad.')
         .row(titulo="5")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 Ahora, seleccione la carpeta #[b colores], opción #[b general]. Ahí se puede modificar el #[b área de trabajo]:
@@ -171,7 +171,7 @@
                   span 3
                 | Color del contorno seleccionado.
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen5.svg", alt='La imagen expone la ventana de “Preferencias” del programa de diseño de patrones, enfocada en la configuración de colores. En la categoría “Configuración” bajo “General”, se puede ajustar el color de diferentes elementos del área de trabajo y las piezas. Un menú desplegable permite seleccionar colores para el fondo, líneas guía, rejilla, rayas, y reglas del área de trabajo, así como colores específicos para el relleno de piezas, bordes y otros detalles. La sección “General” está resaltada con un círculo amarillo. ')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta2/imagen5.png", alt='La imagen expone la ventana de “Preferencias” del programa de diseño de patrones, enfocada en la configuración de colores. En la categoría “Configuración” bajo “General”, se puede ajustar el color de diferentes elementos del área de trabajo y las piezas. Un menú desplegable permite seleccionar colores para el fondo, líneas guía, rejilla, rayas, y reglas del área de trabajo, así como colores específicos para el relleno de piezas, bordes y otros detalles. La sección “General” está resaltada con un círculo amarillo. ')
     
     .subt.mb-5.mt-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -183,19 +183,19 @@
         .col-md-4.mb-4.mb-md-0
           p.p-5 En la barra de #[b menú vista] seleccione la opción #[b ventana de piezas]. En esta ventana se detallan las piezas que se han creado en el archivo.
         .col-md-8
-          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen4.svg", alt='La imagen describe la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, específicamente en el menú “Vista”. Se despliega el menú “Ventana Pieza”, resaltado con un óvalo negro, que permite abrir y configurar diversas ventanas y herramientas del programa, como la ventana de pieza, caja de herramientas, info del set modelo, comparar largo, tabla piezas, vista selección, y ventana 3D. En la parte izquierda, se presenta el panel de “Propiedades” con detalles de una pieza seleccionada.')
+          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen4.png", alt='La imagen describe la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, específicamente en el menú “Vista”. Se despliega el menú “Ventana Pieza”, resaltado con un óvalo negro, que permite abrir y configurar diversas ventanas y herramientas del programa, como la ventana de pieza, caja de herramientas, info del set modelo, comparar largo, tabla piezas, vista selección, y ventana 3D. En la parte izquierda, se presenta el panel de “Propiedades” con detalles de una pieza seleccionada.')
       .row.borde-redondo-tmorada(titulo="Opción caja de herramientas")
         .col-md-4.mb-4.mb-md-0
           p.p-5 En la barra de #[b menú vista] habilite la opción #[b caja de herramientas].
           p.ps-5 En esta ventana se encuentran todas las herramientas que están diseñadas para el proceso de actualización y transformación de las piezas que se encuentran en el área de trabajo. Las herramientas se encuentran divididas en grupos de acuerdo con su funcionalidad.
         .col-md-8
-          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen1.svg", alt='La imagen presenta la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, con el menú “Vista” desplegado y la opción “Caja Herramientas” resaltada con un óvalo negro. A la izquierda, se identifica la “Caja herramientas” con diversas opciones y herramientas de diseño. En el área central, hay un patrón de pieza de color amarillo, mostrando su diseño.')
+          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen1.png", alt='La imagen presenta la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, con el menú “Vista” desplegado y la opción “Caja Herramientas” resaltada con un óvalo negro. A la izquierda, se identifica la “Caja herramientas” con diversas opciones y herramientas de diseño. En el área central, hay un patrón de pieza de color amarillo, mostrando su diseño.')
       .row.borde-redondo-tmorada(titulo="Opción vista y selección")
         .col-md-4.mb-4.mb-md-0
           p.p-5 En la barra de #[b menú vista] habilite la opción #[b vista y selección.]
           p.ps-5 En esta ventana se habilita la información de la pieza, puntos o elementos internos que se quieran mostrar u ocultar en las piezas del archivo.
         .col-md-8
-          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen2.svg", alt='La imagen describe la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, con el menú “Vista” desplegado y la opción “Vista Selección” resaltada con un óvalo negro. A la izquierda, se ve el panel “Vista & Selección Atributos” que permite ajustar diversas propiedades y atributos de las piezas, como líneas guía, segmentos y tipos de puntada. En el área central, hay un patrón de pieza de color amarillo, mostrando su diseño y dimensiones.')
+          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen2.png", alt='La imagen describe la interfaz del programa de diseño de patrones OptiTex PDS 10 Demo, con el menú “Vista” desplegado y la opción “Vista Selección” resaltada con un óvalo negro. A la izquierda, se ve el panel “Vista & Selección Atributos” que permite ajustar diversas propiedades y atributos de las piezas, como líneas guía, segmentos y tipos de puntada. En el área central, hay un patrón de pieza de color amarillo, mostrando su diseño y dimensiones.')
       .row.borde-redondo-tmorada(titulo="Más opciones para habilitar")
         .col-md-4.mb-4.mb-md-0
           p.p-5 En la barra del menú vista también se puede habilitar:
@@ -229,7 +229,7 @@
                   span 7
                 | Mostar líneas guías.
         .col-md-8
-          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen3.svg", alt='Dama en un computador')
+          img.p-5(src="@/assets/curso/temas/tema1/tarjeta3/imagen3.png", alt='')
 
     
     Separador.mt-2
@@ -255,7 +255,7 @@
                 i.fas.fa-plus
                 span.mb-0 #[b Largo:] largo según talla (talla 10 = 60 cm).
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta4/imagen1.svg", alt='La imagen presenta la ventana de creación de un rectángulo en un programa de diseño de patrones. A la izquierda, se ve un cuadro de diálogo titulado “Crear Rectángulo” donde se especifica el nombre de la pieza (“FALDA DEL”), su ancho (24) y su largo (60). A la derecha, se visualiza el rectángulo creado con las dimensiones especificadas, etiquetado como “FALDA DEL” en color azul claro.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta4/imagen1.png", alt='La imagen presenta la ventana de creación de un rectángulo en un programa de diseño de patrones. A la izquierda, se ve un cuadro de diálogo titulado “Crear Rectángulo” donde se especifica el nombre de la pieza (“FALDA DEL”), su ancho (24) y su largo (60). A la derecha, se visualiza el rectángulo creado con las dimensiones especificadas, etiquetado como “FALDA DEL” en color azul claro.')
         .row(titulo="2")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 2. Tome herramienta punto para asignar sobre el rectángulo los puntos necesarios para darle forma a la falda. Sobre la línea vertical derecha marcar:
@@ -264,7 +264,7 @@
                 i.fas.fa-plus
                 span.mb-0 #[b Altura de cadera:] según talla (talla 10 = 18 cm).
           .col-md-7
-            img.p-2(src="@/assets/curso/temas/tema1/tarjeta4/imagen2.svg", alt='La imagen expone la ventana de creación de un rectángulo en un programa de diseño de patrones. A la izquierda, se ve un cuadro de diálogo titulado “Crear Rectángulo” donde se especifica el nombre de la pieza (“FALDA DELANTERO”), su ancho (24) y su largo (60). A la derecha, se visualiza el rectángulo creado con las dimensiones especificadas, etiquetado como “FALDA DELANTERO” en color azul claro.')
+            img.p-2(src="@/assets/curso/temas/tema1/tarjeta4/imagen2.png", alt='La imagen expone la ventana de creación de un rectángulo en un programa de diseño de patrones. A la izquierda, se ve un cuadro de diálogo titulado “Crear Rectángulo” donde se especifica el nombre de la pieza (“FALDA DELANTERO”), su ancho (24) y su largo (60). A la derecha, se visualiza el rectángulo creado con las dimensiones especificadas, etiquetado como “FALDA DELANTERO” en color azul claro.')
         .row(titulo="3")
           .col-md-5.mb-4.mb-md-0
             p.ps-5 3. Sobre la línea de cintura, marque:
