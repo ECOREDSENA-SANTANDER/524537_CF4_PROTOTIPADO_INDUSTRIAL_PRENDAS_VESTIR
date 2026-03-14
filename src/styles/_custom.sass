@@ -1,25 +1,3 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
-  
-  // propios
-
 .banner-principal
     border-radius: 20px !important
 
@@ -127,10 +105,6 @@
 .cajonmorado 
     background-color: #673AB7 !important
 
-// Banner interno - subtitulo
-
-.banner-interno__fondo    
-  background-image: url("../assets/curso/temas/mini-portada.png") !important
 
 .subt
   img
@@ -232,16 +206,6 @@
 //viñetas
 
 // sangría viñeta
-
-.fa-ul
-  margin-left: 0 !important
-  li
-    display: flex !important
-    &:before
-      position: relative
-      margin-right: 7px
-      font-size: 1.4rem
-
 .fa-ol
   margin-left: 0 !important
   li
@@ -254,3 +218,134 @@
 .texto-negro
   font-color: black !important
 
+
+
+
+
+/* 2026 */
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute    
+    top: 20%
+    right: 85%
+  &-2
+    animation: float1 3.1s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
+    right: 84%
+  &-3
+    animation: rotate1 7.5s ease-in-out infinite alternate
+    position: absolute
+    top: 11%
+    right: 29%
+    width: 70px
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+@keyframes rotate1
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+@media (min-width: 576px) 
+  .banner-principal__img 
+    padding-top: 0rem !important
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+figcaption
+  font-weight: normal
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+.lista-ul--color.color-primario i 
+  color: $color-primario !important
+.lista-ul--color.color-secundario i 
+  color: $color-secundario !important
+.lista-ul--color.color-acento-botones i 
+  color: $color-acento-botones !important
+.lista-ul--color.color-acento-contenido i 
+  color: $color-acento-contenido !important
+
+.subt
+  width: fit-content
+  position: relative
+  img
+    width: 50px
+    z-index: 99
+  h3
+    z-index: 999
+    padding: 0px 50px 0px 15px
+  &::before   
+    content: ""
+    position: absolute
+    top: 5px
+    height: 80%
+    width: 100%
+    border-radius: 500px
+    background-color: #FEF4EB
+.subt2
+  background-color: #FADE93
+  border-radius: 500px
+  width: fit-content
+  padding: 7px 20px
+  i
+    font-size: 10px
+    top: 8px !important
+.bgi-1
+  //background-image: url(../assets/curso/temas/tema1/bg.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-2
+  //background-image: url(../assets/curso/temas/tema1/bg2.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-3
+  //background-image: url(../assets/curso/temas/tema1/bg3.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.ul-circle i
+  font-size: 8px
+  top: 9px !important
+.cajon.color-primario
+  background-color: #FEF4EB !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 1
+.slyder-a__bullets__item
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 0.6
+  &--active 
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+.acordion 
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones
+  .acordion__activo
+    background-color: #EEF9F6
+
+.bg1
+  background-color: #BEE8DA
+.bg2
+  background-color: #FCE9D7
+.bg3
+  background-color: #FEF9E9
+.bg4
+  background-color: #FEF4EB
+.w-80x
+  width: 80px !important

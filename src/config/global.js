@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Trazado de patrones',
+    Description:
+      'En este componente se aborda el manejo de un programa digital para la elaboración y el desarrollo de planos, moldes o trazos de patronaje; se exponen conceptos relacionados con: el reconocimiento de la interfaz, el trazo de los básicos, prendas de vestir, despiece y análisis de cada una de las partes que componen una prenda; de igual manera se trabajarán las generalidades del proceso de tendido, trazo y corte de prendas de vestir.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
