@@ -1,100 +1,51 @@
-.banner-principal
-    border-radius: 20px !important
-
-.cajon.color-primario
-  background-color: #D1BCFF
-
-.borde-redondo
-  border-radius: 20px !important
-
-.borde-redondo-tmorada
-  border-radius: 20px !important
-  background-color: #F8F5FF !important
-
-.titulo-segundo.color-primario:after
-  border-left-color: #D1BCFF !important
-
-.linea-tiempo-c__header__btn--left 
-  background-color: #FFD54F !important
-
-.linea-tiempo-c__header__btn--right
-  background-color: #FFD54F !important
-
-.lista-ul--color.color-primario li > i:first-of-type 
-  color: #895cd8 !important
-  
-  ///// SLyder A tipo B Custom --------------------------------------
-.slyder-a__tipo-b .slyder-a__btn--atrs
-  background-color: #EEAC3A
-
-.slyder-a__tipo-b .slyder-a__btn--sigt
-  background-color: #EEAC3A
-
-.slyder-a__btn--sigt, .slyder-a__btn--atrs  
-  border: none
-
-.slyder-a__bullets__item--active
-  background-color: #8C5BE1 !important
-  border: none
-
-.slyder-a__bullets__item
-  background-color: #AFAFAF  
-
-
 /// slyder F boton
-
 .slyder-f 
-    display: flex
-    align-items: center !important
-
+  display: flex
+  align-items: center !important
 .slyder-f__btn
-    width: 50px;
-    height: 50px;
-    background-color: $color-acento-botones;
-    border-radius: 50%;
-
+  width: 50px
+  height: 50px
+  background-color: $color-acento-botones
+  border-radius: 50%
 .slyder-f__btn i 
-    font-size: 2rem !important
-
+  font-size: 2rem !important
 .slyder-f__btn.pe-3
-  margin-right: 1rem;
-  padding-right: 0 !important;
-
+  margin-right: 1rem
+  padding-right: 0 !important
 .slyder-f__btn.ps-3
-  margin-left: 1rem;
-  padding-left: 0 !important;
-
+  margin-left: 1rem
+  padding-left: 0 !important
 
 
 /// -- Tabs -----
+.tabs-a.color-acento-botones 
+  .tabs-a__tab__selected
+    background-color: $color-acento-botones !important
+    &:before
+      background-color: $color-acento-botones !important
+  .tabs-a__tab 
+    background-color: #BEE8DA 
+.tabs-a.color-acento-contenido
+  .tabs-a__tab__selected
+    background-color: $color-acento-contenido !important
+    &:before
+      background-color: $color-acento-contenido !important
+  .tabs-a__tab 
+    background-color: #FEA772
 
-.tabs-a.color-acento-botones .tabs-a__tab__selected
-    background-color: #D1BCFF !important
-    color: #12263F
-
-.tabs-a__tab 
-    background-color: #FFD54F !important
-
-.tarjeta.color-acento-botones--borde 
-    background-color: #E8E1F4
-    border: none
-    border-radius: 20px !important
-
-
-.tabs-a.color-acento-botones .tabs-a__tab__selected:before
-    background-color: #D1BCFF
 
 ///-- tarjetas
-
 .tarjeta--boton
-    background-color: #FFF5D3
-
-.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: #D1BCFF !important
-
-.linea-tiempo-d__item__dots:after
-  border-left: 5px dotted  #673AB7;
-
+  background-color: #FFF5D3
+  cursor: initial
+.linea-tiempo-d.color-acento-botones 
+  .linea-tiempo-d__item__number, .linea-tiempo-d__item__content__title
+    background-color: #BEE8DA
+  .linea-tiempo-d__item--selected 
+    .linea-tiempo-d__item__content, .linea-tiempo-d__item__content__title
+      background-color: #EEF9F6
+  .linea-tiempo-d__item__dots:after
+    border-left: 5px dotted  #F7C99C
 .tarjeta-avatar 
     height: 100%
     position: relative
@@ -105,18 +56,6 @@
 .cajonmorado 
     background-color: #673AB7 !important
 
-
-.subt
-  img
-    width: 23px
-  h3
-    color: #673AB7
-  &::after   
-    content: ""
-    display: block
-    height: 3px
-    width: 110px
-    background-color: #673AB7
 
 // viñeta
 
@@ -157,8 +96,7 @@
 .fondoespecial4
   background-image: url("../assets/curso/temas/tema2/fondo4.png") !important
 
-.bgamarillo
-  background-color: #FFD54F !important
+
 
 .bgamarilloclaro
   background-color: #FFF5D3 !important
@@ -197,11 +135,11 @@
     background-color: #FFD54F
 
 .estilo1
-  border: 1px solid #673AB7
+  border: 2px solid #F7C99C
   border-radius: 25px
 
 .estilo2
-  border: 20px solid #673AB7 
+  border: 20px solid #F7C99C
 
 //viñetas
 
@@ -214,9 +152,6 @@
       position: relative
       margin-right: 7px
       font-size: 1.4rem
-
-.texto-negro
-  font-color: black !important
 
 
 
@@ -301,17 +236,32 @@ figcaption
     font-size: 10px
     top: 8px !important
 .bgi-1
-  //background-image: url(../assets/curso/temas/tema1/bg.png)
+  background-image: url(../assets/curso/temas/tema1/bg1.png)
   background-size: cover
   background-position: center
   background-repeat: no-repeat
 .bgi-2
-  //background-image: url(../assets/curso/temas/tema1/bg2.png)
+  background-image: url(../assets/curso/temas/tema1/bg2.png)
   background-size: cover
   background-position: center
   background-repeat: no-repeat
 .bgi-3
-  //background-image: url(../assets/curso/temas/tema1/bg3.png)
+  background-image: url(../assets/curso/temas/tema2/bg1.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-4
+  background-image: url(../assets/curso/temas/tema1/bg3.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-5
+  background-image: url(../assets/curso/temas/tema2/bg2.png)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-6
+  background-image: url(../assets/curso/temas/tema2/bg3.png)
   background-size: cover
   background-position: center
   background-repeat: no-repeat
@@ -334,10 +284,15 @@ figcaption
     border-color: $color-acento-botones
     opacity: 1
 .acordion 
-  .acordion__accion__btn--a
+  .acordion__accion__btn--a, .acordion__accion__btn--b
     background-color: $color-acento-botones
+    border-color: $color-acento-botones
   .acordion__activo
-    background-color: #EEF9F6
+    background-image: url(../assets/curso/temas/tema1/bg3.png)
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+
 
 .bg1
   background-color: #BEE8DA
@@ -347,5 +302,9 @@ figcaption
   background-color: #FEF9E9
 .bg4
   background-color: #FEF4EB
+.bg5
+  background-color:  #FADE93
+.bg6
+  background-color:  #5EC6A3
 .w-80x
   width: 80px !important
