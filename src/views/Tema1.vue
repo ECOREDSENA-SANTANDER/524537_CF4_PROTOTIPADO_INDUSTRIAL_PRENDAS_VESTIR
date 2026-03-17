@@ -8,7 +8,7 @@
       h1 Trazado de patrones (#[em software] de patronaje)
       
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .col-sm-12.col-md-7.col-lg-7
+      .col-sm-12.col-md-7.col-lg-7.mb-3.mb-md-0
         p Para el manejo e implementación del #[em software] de patronaje es necesario tener como referente el desarrollo y elaboración de básicos, de acuerdo con la metodología del manual de patronaje SENA y demás teorías estudiadas hasta el momento.
         .cajon.color-acento-contenido.p-4
           p.mb-0 #[b  Para el trazo de patrones se referenciará únicamente la línea femenina; sin embargo, cabe resaltar que las herramientas del programa y manejo de interfaz aplican para cualquier línea; tenga en cuenta que el desarrollo del trabajo manual es la base para la apropiación de un proceso digital.]
@@ -26,7 +26,7 @@
         h3.mb-0.ms-2 Reconocimiento interfaz de Optitex
     
     .row.justify-content-center.mb-5(data-aos="fade")
-      .col-sm-12.col-md-3.col-lg-3
+      .col-sm-12.col-md-5.col-lg-3
         ol.lista-ol--cuadro.lista-ol--separador.fa-ol
           li 
             .lista-ol--cuadro__vineta
@@ -983,7 +983,7 @@
           .col-lg-7.col-md-8
             img(src="@/assets/curso/temas/tema1/tarjeta10/imagen13.svg", alt='La imagen describe dos patrones de costura adicionales para la parte delantera de una prenda. El patrón de la izquierda tiene una línea verde que parece indicar una nueva línea de corte o costura. El patrón de la derecha tiene un diseño con una pinza central que se extiende desde la parte inferior hasta el centro del patrón, además de una marca para un ojal cerca de la parte superior.')
         .row.justify-content-center.my-lg-4
-          .col-lg-4.col-md-4.mb-4.mb-md-0
+          .col-lg-4.col-md-12.mb-4.mb-md-0
             p #[b 14. ] Para trazar la parte posterior de la blusa hasta la cadera se parte desde el básico posterior. Trace una línea guía en el punto de cintura costado, en este caso debe tener en cuenta los desniveles de cintura, es decir, el largo de la prenda se dará desde el punto de costado cintura, mientras que la pinza se marcará desde el punto de cintura centro atrás.
             p Para alinear los puntos de cintura, en el grupo de herramientas de #[b contorno] seleccione #[b alinear puntos] (tecla rápida G), seleccione los puntos de cintura que se quieren alinear; siempre se debe marcar en el sentido de las manecillas del reloj.
           .col-lg-7.col-md-8
@@ -1009,7 +1009,7 @@
           .col-lg-7.col-md-8
             img(src="@/assets/curso/temas/tema1/tarjeta10/imagen18.svg", alt='La imagen detalla dos ventanas de un software de diseño de patrones, donde se ajustan las dimensiones y divisiones de segmentos del patrón, y una pieza de patrón de costura con medidas y puntos de referencia para confección de una prenda.')
         .row.justify-content-center.my-lg-4
-          .col-lg-4.col-md-4.mb-4.mb-md-0
+          .col-lg-4.col-md-12.mb-4.mb-md-0
             p #[b 19. ] Para marcar la pinza en segmento interno se debe marcar una línea guía en cintura. Con la herramienta #[b punto sobre], fije en el segmento de centro frente, un punto, en el punto de talle o cintura. En el grupo de herramientas #[b insertar ] identifique la herramienta #[b botón], haga clic en #[b crear botón. ] Para marcar el punto de pinza se debe tener en cuenta el primer y segundo lado de pinza, el análisis se hace tomando como referencia el ancho de pinza y la separación del busto.
             p Crear cada uno de los puntos de pinza con la herramienta botón, con el fin de poder marcar el ancho de la pinza. Para marcar el largo de la pinza por línea de cadera utilizar la herramienta punto sobre. Se debe identificar cada uno de los vértices de pinza, teniendo en cuenta que no se puede encontrar el vértice de pinza por costado y el vértice de pinza de ajuste. Para marcar o dibujar la pinza, en la herramienta dibujar, opción borrador se puede ir marcando cada uno de los puntos o vértices señalados.  
           .col-lg-7.col-md-8
@@ -1107,7 +1107,7 @@
             .col-lg-7.col-md-8
               img(src="@/assets/curso/temas/tema1/tarjeta11/imagen8.svg", alt='La imagen describe como una vez fusionadas las piezas, si no se presentan curvas suaves en cada unión, suavice los puntos. Utilice la herramienta de selección, haga clic sobre el punto y asigne el atributo de curva. Luego, con la herramienta de mover puntos, deslice el mouse hasta suavizar la curva. Repita el proceso para suavizar el punto en el hombro y el escote. ')
           .row.justify-content-center
-            .col-lg-4.col-md-4.mb-4.mb-md-0
+            .col-lg-4.col-md-12.mb-4.mb-md-0
               p.mb-4 #[b 9. ] Ya en este punto se identifica la corrección de las uniones en cada uno de los puntos de hombro. Si el hilo de tela que se identifica en la pieza no corresponde al hilo de tela del trazo o corte proceda a modificarlo con la opción #[b mover interno ] (tecla rápida I). Arrastre o mueva el hilo de tela de la pieza delantera, haciendo intersección sobre el hilo de la tela posterior, haga clic sobre este; se presenta que el hilo de tela se modifica quedando paralelo al centro atrás.
             .col-lg-7.col-md-8
               img(src="@/assets/curso/temas/tema1/tarjeta11/imagen9.svg", alt='La imagen expone tres vistas de un patrón de costura en color azul, con líneas y puntos de control que delinean su forma. Cada vista parece representar diferentes ángulos o ajustes del mismo patrón, posiblemente relacionados con las modificaciones en la estructura del diseño de una prenda. Las líneas negras y los puntos de control rosa indican las costuras y ajustes precisos en el diseño del patrón, mientras que las flechas y medidas sugieren direcciones y longitudes específicas para el corte y confección. ')
