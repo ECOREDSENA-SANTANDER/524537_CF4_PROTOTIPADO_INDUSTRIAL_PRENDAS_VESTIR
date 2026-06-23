@@ -103,11 +103,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -129,15 +124,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Escalado Masculino',
-      referencia: 'Gaviria F., (2018). Manual escalado masculino',
-      tipo: 'Documento',
-      link:
-        'https://repositorio.sena.edu.co/bitstream/handle/11404/5245/patronaje_escalado_linea_masculina.pdf;sequence=1',
-    },
-  ],
   glosario: [
     {
       termino: 'Escalado',
@@ -182,41 +168,30 @@ export default {
     {
       referencia:
         'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
-      link:
-        'https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena',
     },
     {
       referencia:
         'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-      link:
-        'https://www.harpersbazaar.mx/cuerpo-mente/la-ropa-que-eliges-afecta-a-tu-estado-de-animo-y-cerebro-segun-expertos',
     },
     {
       referencia:
         'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda: dibujo plano.',
-      link: '',
     },
     {
       referencia:
         'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-      link:
-        'https://www.scribd.com/document/394130880/Laver-James-Breve-Historia-Del-Traje-y-La-Moda-pdf',
     },
     {
       referencia:
         'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book].',
-      link: '',
     },
     {
       referencia:
         'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso.',
-      link: '',
     },
     {
       referencia:
         'Vélez, M., García M., Hincapié L. (1996). Patronaje y escalado línea interior y deportiva. Servicio Nacional de Aprendizaje SENA. ',
-      link:
-        'https://www.scribd.com/document/574961362/SENA-Patronaje-y-escalado-Linea-interior-deportiva',
     },
   ],
   creditos: [
@@ -225,8 +200,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales (RED) ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -279,7 +255,7 @@ export default {
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -289,12 +265,12 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Diana Lizeth Lozada Díaz',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

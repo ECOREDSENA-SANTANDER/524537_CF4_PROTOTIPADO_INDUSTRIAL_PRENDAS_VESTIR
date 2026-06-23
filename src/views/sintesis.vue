@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="El diagrama presenta un resumen de los temas y conceptos trabajados en el componente, entre los cuales se encuentra: Escalados de diferentes prendas de vestir, análisis y construcción de cuadro de tallas, modificaciones de moldes y Escalado en Optitex")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual que ilustra el proceso de escalado digital, desglosándolo en escalado manual de prendas y escalado en Optitex.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
