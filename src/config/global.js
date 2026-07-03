@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Escalado digital',
     Description:
-      'Al finalizar todo el proceso de patronaje hasta el punto de prototipado se lleva a cabo el proceso de escalado, este se realiza después de la verificación y validación de los moldes que se quieren trabajar, el escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes, lo que hace necesario el reconocimiento de estas.',
+      'Al finalizar todo el proceso de patronaje hasta el punto de prototipado, se lleva a cabo el proceso de escalado; este se realiza después de la verificación y validación de los moldes que se quieren trabajar. El escalado se puede trabajar de manera digital o manual; en cualquiera de los dos casos, siempre se debe tener como punto de partida el cuadro de tallas para poder hacer el análisis detallado de las prendas. Cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes, lo que hace necesario el reconocimiento de estas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -46,33 +46,35 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Escalado de base con pinzas - superior',
+            titulo: 'Escalado de base con pinzas superior',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Escalado de básico de pantalón',
+            titulo: 'Escalado básico de pantalón',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Escalado cortes, manga, cuello',
+            titulo:
+              'Escalado aplicado a cortes y piezas complementarias (manga y cuello)',
             hash: 't_1_4',
           },
           {
             numero: '1.5',
-            titulo: 'Base superior masculina - análisis de escalado bibásico',
+            titulo:
+              'Análisis de escalado bibásico en la base superior masculina',
             hash: 't_1_5',
           },
           {
             numero: '1.6',
             titulo:
-              'Análisis y construcción de cuadro de tallas masculino - dxt escalado',
+              'Estructura de tallaje masculino y matrices de escalado DxT',
             hash: 't_1_6',
           },
           {
             numero: '1.7',
-            titulo: 'Modificación de moldes - análisis sobre medidas',
+            titulo: 'Modificación de moldes y análisis sobre medidas',
             hash: 't_1_7',
           },
         ],
@@ -110,7 +112,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF7_524537_DU.zip',
+        download: 'downloads/CF4_524537_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -136,7 +138,7 @@ export default {
     {
       termino: 'Escalado monobásico',
       significado:
-        'Partiendo de tallas base se obtienen las demás por aumento o reducción.',
+        'partiendo de tallas base, se obtienen las demás por aumento o reducción. ',
     },
     {
       termino: 'Escalado simple',
@@ -146,7 +148,7 @@ export default {
     {
       termino: 'Optitex',
       significado:
-        'Empresa que ofrece soluciones de software para el diseño, la visualización y la producción de ropa en 2D y 3D.',
+        'Empresa que ofrece soluciones de <em>software</em> para el diseño, la visualización y la producción de ropa en 2D y 3D.',
     },
     {
       termino: 'Plano cartesiano',
@@ -254,7 +256,7 @@ export default {
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora multimedia',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
