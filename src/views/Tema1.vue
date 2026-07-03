@@ -684,7 +684,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5w_UnxRLOBQ?si=e2QvetrlparUOtWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Escalado de base con pinzas - superior
+          figcaption Video. Escalado de base con pinzas superior
     
     .fondo21.p-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -716,7 +716,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/sgGEl_vjJTc?si=EcXiXWbOoh3GVwDr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Escalado de básico de pantalón
+          figcaption Video. Escalado básico de pantalón
     
     .fondo21.p-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -749,7 +749,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/_GM6Ni5lDW8?si=muadyKU5HtcWPxaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Cortes de manga con cuello escalado
+          figcaption Video. Escalado aplicado a cortes y piezas complementarias (manga y cuello)
     
     .fondo21.p-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -786,7 +786,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/pMZ7Uxb1cl8?si=I_eNzxV9nGJrEgrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Base superior masculina - análisis de escalado bibásico
+          figcaption Video. Análisis de escalado bibásico en la base superior masculina
     
 
     Separador 
@@ -805,7 +805,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/KcHaLNoyFVI?si=jHAmhuKiAFODs9Nx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Análisis y construcción de cuadro de tallas masculino - dxt escalado
+          figcaption Video. Estructura de tallaje masculino y matrices de escalado DxT
     
     .fondo21.p-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -845,7 +845,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/AD1BNSkDZOY?si=53iUJctgMarEzq_f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Modificación de moldes - análisis sobre medidas
+          figcaption Video. Modificación de moldes y análisis sobre medidas
 
 
 </template>
