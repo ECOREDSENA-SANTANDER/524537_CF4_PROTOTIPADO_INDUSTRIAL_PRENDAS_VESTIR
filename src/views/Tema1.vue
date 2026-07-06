@@ -309,7 +309,7 @@
                 thead
                   tr.bl
                     th.h4 #[b Medidas]
-                    th.h4 #[b Dif. x talla]
+                    th.h4 #[b Diferencia por talla ]
                     th.h4 #[b Proporción]
                     th.h4 #[b Medida aplicar en escalado]
                 tbody.bg-white
@@ -340,7 +340,7 @@
                 thead
                   tr.bl
                     th.h4 #[b Medidas]
-                    th.h4 #[b Dif. x talla]
+                    th.h4 #[b Diferencia por talla]
                     th.h4 #[b Proporción]
                     th.h4 #[b Medida aplicar en escalado]
                 tbody
