@@ -195,6 +195,10 @@ export default {
       referencia:
         'Vélez, M., García M., Hincapié L. (1996). Patronaje y escalado línea interior y deportiva. Servicio Nacional de Aprendizaje SENA. ',
     },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (s. f.). Canal de YouTube.',
+    },
   ],
   creditos: [
     {
