@@ -684,7 +684,7 @@
         figure.py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5w_UnxRLOBQ?si=e2QvetrlparUOtWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Escalado de base con pinzas superior
+          figcaption Video. Escalado de base con pinzas - superior
     
     .fondo21.p-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -693,7 +693,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5.mb-1 Escalado de base con pinzas superior
+              h5.mb-1  Escalado de base con pinzas superior
               p.mb-0 Para aprender más sobre el escalado de base con pinzas - superior, consulte el documento Escalado_de_base_con_pinzas_superior.pdf, ubicado en la carpeta de anexos.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
@@ -726,9 +726,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.mb-1 Escalado básico de pantalón
-              p.mb-0 Para ampliar la información sobre el escalado básico de pantalón, consulte el documento Escalado_de_básico_de_pantalón.pdf, ubicado en la carpeta de anexos. 
+              p.mb-0 Para ampliar la información sobre el escalado básico de pantalón, consulte el documento Escalado_basico_de_pantalon.pdf, ubicado en la carpeta de anexos. 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Escalado_de_basico_de_pantalon.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Escalado_basico_de_pantalon.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
