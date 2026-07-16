@@ -9,9 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center 
-      .col-lg-12.col-md-12.col-12
-        p.mb-4 En el siguiente video, se presenta la introducción al componente formativo, explicando de manera general las temáticas que serán tratadas: 
+    p.mb-4 En el siguiente video, se presenta la introducción al componente formativo, explicando de manera general las temáticas que serán tratadas: 
     
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.col-12.col-md-12
